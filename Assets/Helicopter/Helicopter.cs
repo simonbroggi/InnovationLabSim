@@ -19,7 +19,7 @@ public class Helicopter : MonoBehaviour {
 	private Vector3 offset = Vector3.zero;
 	
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () {
 		mainRotor.Rotate(Vector3.up, mainRotorSpeed * Time.deltaTime);
 		heckRotor.Rotate(Vector3.up, heckRotorSpeed * Time.deltaTime);
 		Vector3 newOffset = new Vector3(Mathf.PerlinNoise(Time.time * shakeFrequency.x, .123f) -.5f,
