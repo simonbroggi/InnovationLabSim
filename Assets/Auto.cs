@@ -23,7 +23,7 @@ public class Auto : MonoBehaviour, IPointerClickHandler {
         while (i < hitColliders.Length)
         {
 			//Debug.Log("collision with " + hitColliders[i].gameObject.name);
-			if(hitColliders[i].gameObject.name == "Gegner") {
+			if(hitColliders[i].gameObject.name.StartsWith("Gegner")) {
 				fire.gameObject.SetActive(true);
 			}
 			i++;

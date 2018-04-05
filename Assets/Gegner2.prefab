@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 65779374603061548}
   - component: {fileID: 114219411664496278}
   m_Layer: 0
-  m_Name: Gegner
+  m_Name: Gegner2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,4 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b6fcd39e6fc49c5ac619d40900bfa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15.6
+  speed: 22.14
